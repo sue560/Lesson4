@@ -37,7 +37,7 @@ h1 {
 
 #page-content {
   max-width: 100%;
-  height: 600px;
+  height: 768px;
   padding-left: 30px;
   padding-top: 20px;
   background-image: url("https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?fit=crop&fm=jpg&h=725&q=80&w=1250");
@@ -51,8 +51,9 @@ h1 {
   height: 400px;
   color: white;
   position: relative;
-  top: 175px;
+  top: 160px;
   margin: 0 auto;
+  opacity: .5;
 }
 
 .next-section {
@@ -73,22 +74,32 @@ h1#work {
   size: 1.5em;
   position: relative;
   padding-top: 100px;
-  left: 40%;
+  left: 42%;
   text-align: center;
   margin: 0 auto;
   display: inline-block;
 }
 #intro {
-  font-family: 'Cookie';
-  font-size: 32px;
+  font-family: 'Prata';
+  font-size: 18px;
   margin-bottom: 0px;
-  margin-top: 20px;
+  margin-top: 10px;
+  line-height: 32px;
 }
+
+/*#techskills {
+  margin-top: 50px;
+  font-family: 'Cookie';
+  position: fixed;
+  bottom: 20%;
+  font-size: 28px;
+}*/
 
 #hello {
   font-size: 72px;
   padding-left: 40px;
 }
+
 .content {
   float: left;
   width: 70%;
@@ -115,6 +126,10 @@ footer {
   width: 100%;
 }
 
+.contact {
+  height: 400px;
+  background-color: black;
+}
 /*Initialize*/
 
 ul#menu, ul#menu ul.sub-menu {

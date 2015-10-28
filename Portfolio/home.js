@@ -7,6 +7,8 @@
   // });
 
 
+$(document.ready)
+
 
 
 
@@ -17,12 +19,12 @@ function onReady() {
     }
   );
 
-  $(window).scroll(function() {
+  $('.container').click(function() {
     $('.container').animate(
     {
-       opacity: .2,
+       opacity: .8,
     }
-       , 2000 );
+       );
   });
 }
 
